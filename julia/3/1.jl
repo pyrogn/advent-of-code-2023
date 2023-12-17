@@ -1,0 +1,6 @@
+println(1)
+println(pwd())
+a = open("julia/3/input.txt")
+lines = readlines(a)
+close(a)
+println(lines)
